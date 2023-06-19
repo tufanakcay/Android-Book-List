@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="top"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageview_resim"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:src="@drawable/beyaz_zambaklar" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beyaz Zambaklar Ülkesinde"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_yazar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grigory Petrov"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_yayimevi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İndigo Kitap"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_fiyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiyat : 45.20 TL"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textview_yil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İlk Baskı Yılı: 2018"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
