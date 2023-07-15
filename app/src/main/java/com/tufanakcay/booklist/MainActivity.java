@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
         adp = new KitapAdapter(bookList, this);
 
         listView.setAdapter(adp);
-
     }
 
 }
